@@ -61,3 +61,18 @@ Sinta-se à vontade para se inspirar na estrutura, mas mantenha os créditos ori
 ---
 
 ⭐ <i>Feito com dedicação por <a href="https://eric-l-araujo.github.io/meu-portfolio">Eric Araujo</a></i>
+
+
+
+
+https://paletadecores.com/paleta/092b5a/09738a/78a890/9ed1b7/e7d9b4/
+
+## Paleta de cores alternativa
+
+
+
+#092b5a
+#09738a
+#78a890
+#9ed1b7
+#e7d9b4
