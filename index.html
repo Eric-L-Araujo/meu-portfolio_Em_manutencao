@@ -4,23 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/styles/style.css">
-  <link rel="shortcut icon" href="src/img/light-bulb.png" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="src/img/light-bulb.png" type="image/x-icon"> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
   <link rel="stylesheet" href="src/styles/card-slider.css">
-  <title>Eric Araujo's Portfólio</title>
+  <title>Portfólio Alternativo</title>
 </head>
 
 <body>
   
   <header id="cabecalho">
+    <p class="texto">Meu portfólio</p>
     <!-- MENU -->
     <nav id="nav-bar">
-      <a href="#" class="links">Home</a>
-      <a href="#container-sobre-mim" class="links">Sobre mim</a>
-      <a href="#titulo-projeto" class="links">Projetos</a>
-      <a href="#container-contato" class="links">Contato</a>
+      
+      
+      <div class="icone-menu">
+        <a href="#" class="links"> 
+          <ion-icon name="home"  style="color: #ffffff;" size="large">
+          </ion-icon>Home</a>
+      </div>
+      
+      
+      <div class="icone-menu">
+        <a href="#container-sobre-mim" class="links"> <ion-icon name="code" style="color: #ffffff;" size="large">
+        </ion-icon>Skills</a>
+      </div>
+
+      <div class="icone-menu">
+        <a href="#titulo-projeto" class="links"> <ion-icon name="book" style="color: #ffffff;" size="large">
+        </ion-icon>Projetos</a>
+      </div>
+
+      <div class="icone-menu">
+        <a href="#container-contato" class="links">  <ion-icon name="call" style="color: #ffffff;" size="large">
+        </ion-icon>Contato</a>
+      </div>
+      
+      
     </nav>
+
     <!-- TOGGLE DE ALTERNAR PARA DARK/LIGHT THEME -->
     <div class="toggle-container">
       <p id="title-theme">Tema claro &nbsp; &nbsp;</p>
@@ -32,20 +55,21 @@
   </header>
 
   <!-- LINHA HORIZONTAL DEBAIXO DO MENU -->
-  <hr id="hr-home">
+  <!-- <hr id="hr-home"> -->
 
   <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
   <main>
     <!-- HOME DA PÁGINA -->
     <section class="container-home">
-      
       <!-- SESSÃO DE EXIBIÇÃO "PORTFÓLIO: OLÁ, ME CHAMO ERIC ARAUJO" -->
       <div class="container-apresentacao">
-        <p class="texto portfolio">Portfólio</p>
         <p class="texto">Olá, me chamo</p>
-        <p class="texto nome">ERIC ARAUJO</p>
-        <p class="texto curso">Análise e desenvolvimento de sistemas</p>
-        <a href="https://github.com/Eric-L-Araujo?tab=repositories" id="botao-saiba-mais" target="_blank" rel="external">Saiba mais</a>
+        <p class="texto nome">Eric Araujo</p>
+        <p class="texto">Sou estudante de Análise e Desenvolvimento de Sistemas na UNISUAM, atualmente no 3º período. Tenho interesse em desenvolvimento web, banco de dados e design de interfaces (UI/UX), buscando unir criatividade e lógica para criar experiências digitais eficientes e agradáveis.</p>
+        <div class="botoes-home">
+          <a href="https://github.com/Eric-L-Araujo?tab=repositories" class="botao" target="_blank" rel="external">Baixar curriculo</a>
+          <a href="https://github.com/Eric-L-Araujo?tab=repositories" class="botao" target="_blank" rel="external">Contato</a>
+        </div>
       </div>
      
       <picture class="container-imagem">
@@ -61,7 +85,7 @@
     <div class="container-sobre-mim" id="container-sobre-mim">
 
         <div class="container-foto-e-texto">
-          <img src="src/img/minha-foto.png" alt="Imagem de Eric Araujo sorrindo" class="minha-foto">
+          <!-- <img src="src/img/minha-nova-foto-2.jpeg" alt="Imagem de Eric Araujo sorrindo" class="minha-foto"> -->
           <h2 class="titulo-sobremim">Sobre mim</h2>
           <p class="texto">
             Sou estudante de Análise e Desenvolvimento de Sistemas na UNISUAM, atualmente no 3º período. Tenho interesse em desenvolvimento web, banco de dados e design de interfaces (UI/UX), buscando unir criatividade e lógica para criar experiências digitais eficientes e agradáveis.
@@ -210,6 +234,9 @@
   <script src="src/scripts/script.js"></script>
   <script src="https://kit.fontawesome.com/0b684993df.js" crossorigin="anonymous"></script>
   
+  <script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " ></script>
+  <script nomodule src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " >   </script>
+
 </body>
 
 </html>
