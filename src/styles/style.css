@@ -356,7 +356,7 @@ body.dark .imagem-home {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  background-color: #5e17eb;
+  background-color: var(--dark-theme-secondary-color);
 }
 
 .rodape ul li {
@@ -409,8 +409,6 @@ body.dark .imagem-home {
   max-width: 70%;
   display: flex;
   margin: auto;
-  
-
 }
 
 .home-texto {
@@ -451,9 +449,6 @@ body.dark .imagem-home {
 }
 
 }
-
-
-
 @media screen and (max-width: 575px) {
 
   #cabecalho {
@@ -499,7 +494,6 @@ body.dark .imagem-home {
     border-radius: 10px;
 
   }
-
 
 
   .container-sobre-mim  .container-foto-e-texto .titulo-sobremim {
